@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Sociedad de la Información</title>
+    <link rel="stylesheet" href="Styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navegación -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-network-wired"></i>
+                <span>Sociedad de la Informacion</span>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#inicio" class="nav-link">Inicio</a>
+                <a href="#transicion" class="nav-link">Transición</a>
+                <a href="#caracteristicas" class="nav-link">Características</a>
+                <a href="#mitos" class="nav-link">Mitos</a>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">La sociedad de la información</h1>
+            <p class="hero-subtitle">De la era industrial a la era digital</p>
+            <a href="#transicion" class="hero-btn">Explorar transición</a>
+        </div>
+        <div class="hero-background">
+            <div class="floating-shape shape-1"></div>
+            <div class="floating-shape shape-2"></div>
+            <div class="floating-shape shape-3"></div>
+        </div>
+    </section>
+
+    <!-- Introducción -->
+    <section class="intro-section">
+        <div class="container">
+            <div class="intro-content">
+                <p class="intro-text">
+                    La <strong>sociedad de la información</strong> es el nombre que se le da a la época actual, donde la información y el conocimiento se han convertido en la base de la economía y la vida en general. Esta etapa ha dejado atrás la <strong>era industrial</strong>, que se basaba en la producción masiva de bienes físicos, las fábricas y el uso de máquinas.
+                </p>
+                <div class="intro-image">
+                    <div class="image-container">
+                        <div class="tech-icon">
+                            <i class="fas fa-industry"></i>
+                            <span>Era Industrial</span>
+                        </div>
+                        <div class="transition-arrow">
+                            <i class="fas fa-long-arrow-alt-right"></i>
+                        </div>
+                        <div class="tech-icon">
+                            <i class="fas fa-microchip"></i>
+                            <span>Era Digital</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Carrusel de Imágenes -->
+    <section class="carousel-section">
+        <div class="container">
+            <h2 class="section-title">Transformación Digital en Imágenes</h2>
+            <p class="section-subtitle">El viaje de lo analógico a lo digital</p>
+            
+            <div class="carousel-container">
+                <div class="carousel">
+                    <div class="carousel-slide active">
+                        <img src="img/Foto1.jpg" >
+                        <div class="slide-caption">
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="img/Foto2.jpg" >
+                        <div class="slide-caption">
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="img/Foto3.jpg" >
+                        <div class="slide-caption">
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="img/Foto4.jpg" >
+                        <div class="slide-caption">
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="img/Foto5.jpg" >
+                        <div class="slide-caption">
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="img/Foto6.png" >
+                        <div class="slide-caption">
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+                
+                <button class="carousel-btn carousel-btn-prev">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button class="carousel-btn carousel-btn-next">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+                
+                <div class="carousel-dots">
+                    <span class="dot active" data-slide="0"></span>
+                    <span class="dot" data-slide="1"></span>
+                    <span class="dot" data-slide="2"></span>
+                    <span class="dot" data-slide="3"></span>
+                    <span class="dot" data-slide="4"></span>
+                    <span class="dot" data-slide="5"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- El resto de tu contenido HTML permanece igual -->
+    <!-- Transición de Eras -->
+    <section id="transicion" class="transition-section">
+        <div class="container">
+            <h2 class="section-title">Aspectos Clave de la Transición</h2>
+            <p class="section-subtitle">Comparación entre la era industrial y la era digital</p>
+            
+            <div class="comparison-tabs">
+                <div class="tab-buttons">
+                    <button class="tab-btn active" data-tab="economia">Economía</button>
+                    <button class="tab-btn" data-tab="trabajo">Trabajo</button>
+                    <button class="tab-btn" data-tab="comunicacion">Comunicación</button>
+                    <button class="tab-btn" data-tab="globalizacion">Globalización</button>
+                </div>
+                
+                <div class="tab-content">
+                    <div class="tab-pane active" id="economia">
+                        <div class="era-card industrial">
+                            <h3>Era Industrial</h3>
+                            <p>Basada en la <strong>producción de bienes tangibles</strong> (automóviles, acero, textiles). La riqueza se medía por la capacidad de producir y vender productos físicos a gran escala.</p>
+                        </div>
+                        <div class="era-card digital">
+                            <h3>Era Digital</h3>
+                            <p>Basada en la <strong>información, el conocimiento y los servicios</strong>. El valor se encuentra en el diseño, la innovación, el software, la gestión de datos y las plataformas digitales.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="tab-pane" id="trabajo">
+                        <div class="era-card industrial">
+                            <h3>Era Industrial</h3>
+                            <p>El empleo se concentraba en <strong>fábricas y minas</strong>. El trabajo era rutinario, físico y se organizaba de forma jerárquica y lineal.</p>
+                        </div>
+                        <div class="era-card digital">
+                            <h3>Era Digital</h3>
+                            <p>El empleo se ha diversificado. Hay un aumento del <strong>trabajo intelectual, remoto y flexible</strong>. El conocimiento y las habilidades digitales son más valiosos que la fuerza física.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="tab-pane" id="comunicacion">
+                        <div class="era-card industrial">
+                            <h3>Era Industrial</h3>
+                            <p>Lenta y centralizada. La información fluía a través de medios masivos tradicionales como la radio, la televisión y la prensa escrita, con una lógica de <strong>emisor a receptor</strong>.</p>
+                        </div>
+                        <div class="era-card digital">
+                            <h3>Era Digital</h3>
+                            <p>Instantánea y descentralizada. Internet y las redes sociales permiten una comunicación <strong>multidireccional en tiempo real</strong>. Cualquiera puede ser tanto emisor como receptor.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="tab-pane" id="globalizacion">
+                        <div class="era-card industrial">
+                            <h3>Era Industrial</h3>
+                            <p>Limitada por la logística física. El comercio internacional dependía de los barcos y trenes, lo que lo hacía un proceso lento.</p>
+                        </div>
+                        <div class="era-card digital">
+                            <h3>Era Digital</h3>
+                            <p>Acelerada. Los datos y las transacciones financieras se mueven a la velocidad de la luz, lo que ha facilitado la integración de mercados y culturas a nivel global.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Características -->
+    <section id="caracteristicas" class="features-section">
+        <div class="container">
+            <h2 class="section-title">Características de la sociedad de la información</h2>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>Abundancia de información</h3>
+                    <p>Estamos rodeados de una cantidad enorme de datos y noticias a través de Internet, la televisión y otros medios.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-tachometer-alt"></i>
+                    </div>
+                    <h3>Velocidad</h3>
+                    <p>La información se mueve a una velocidad increíble. Un evento en un lugar del mundo puede ser conocido en segundos en cualquier otro rincón del planeta.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-globe-americas"></i>
+                    </div>
+                    <h3>Conectividad global</h3>
+                    <p>Internet nos permite comunicarnos con personas de todo el mundo, borrando las barreras geográficas y culturales.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <h3>Interactividad</h3>
+                    <p>Ya no somos solo consumidores pasivos de información. Podemos crear nuestro propio contenido, opinar y participar activamente.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-sync-alt"></i>
+                    </div>
+                    <h3>Cambio constante</h3>
+                    <p>Las tecnologías de la información evolucionan rápidamente, lo que exige que estemos en constante aprendizaje.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-layer-group"></i>
+                    </div>
+                    <h3>Convergencia digital</h3>
+                    <p>Diferentes tecnologías y medios se integran en plataformas únicas, permitiendo acceso múltiple a través de un solo dispositivo.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mitos y Realidades -->
+    <section id="mitos" class="myths-section">
+        <div class="container">
+            <h2 class="section-title">Mitos y realidades de la sociedad de la información</h2>
+            
+            <div class="myths-container">
+                <div class="myth-reality">
+                    <div class="myth">
+                        <h3><i class="fas fa-exclamation-circle"></i> Mito</h3>
+                        <p>Acceder a la información nos hace automáticamente más inteligentes o sabios.</p>
+                    </div>
+                    <div class="reality">
+                        <h3><i class="fas fa-check-circle"></i> Realidad</h3>
+                        <p>El exceso de información puede ser una distracción. Para que sea útil, necesitamos desarrollar el pensamiento crítico para seleccionar, analizar y verificar lo que leemos.</p>
+                    </div>
+                </div>
+                
+                <div class="myth-reality">
+                    <div class="myth">
+                        <h3><i class="fas fa-exclamation-circle"></i> Mito</h3>
+                        <p>Internet democratiza el conocimiento y reduce las desigualdades.</p>
+                    </div>
+                    <div class="reality">
+                        <h3><i class="fas fa-check-circle"></i> Realidad</h3>
+                        <p>Existe una <strong>brecha digital</strong>. No todas las personas o países tienen acceso a la tecnología o las habilidades necesarias para utilizarla.</p>
+                    </div>
+                </div>
+                
+                <div class="myth-reality">
+                    <div class="myth">
+                        <h3><i class="fas fa-exclamation-circle"></i> Mito</h3>
+                        <p>Las redes sociales nos conectan más que nunca.</p>
+                    </div>
+                    <div class="reality">
+                        <h3><i class="fas fa-check-circle"></i> Realidad</h3>
+                        <p>La comunicación digital no siempre reemplaza la conexión humana real. El uso excesivo de la tecnología puede llevar al aislamiento.</p>
+                    </div>
+                </div>
+                
+                <div class="myth-reality">
+                    <div class="myth">
+                        <h3><i class="fas fa-exclamation-circle"></i> Mito</h3>
+                        <p>La información en Internet es siempre neutral y objetiva.</p>
+                    </div>
+                    <div class="reality">
+                        <h3><i class="fas fa-check-circle"></i> Realidad</h3>
+                        <p>Gran parte de la información en línea está influenciada por intereses económicos o políticos. Las noticias falsas o la desinformación son un problema real.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3>Sociedad de la Información</h3>
+                    <p>De la era industrial a la era digital</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#inicio">Inicio</a>
+                    <a href="#transicion">Transición</a>
+                    <a href="#caracteristicas">Características</a>
+                    <a href="#mitos">Mitos</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Sociedad de la Informacion. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
